@@ -16,6 +16,18 @@
 # ${WANTED_MODULE_NAME}_LIBRARIES
 # ${WANTED_MODULE_NAME}_INCLUDE_DIR
 
+LIST ( APPEND WANTED_INCLUDES_PATH
+	/usr/local
+	/usr
+	/sw # Fink
+	/opt/local # DarwinPorts
+	/opt/csw # Blastwave
+	/opt
+    $ENV{PROGRAMFILES}/${WANTED_MODULE_NAME}
+    $ENV{${WANTED_MODULE_NAME}DIR}
+    $ENV{${WANTED_MODULE_NAME}_DIR}
+)
+
 LIST ( APPEND WANTED_LIBRARIES_PATH
 	~/Library/Frameworks
 	/Library/Frameworks
