@@ -6,7 +6,7 @@ SET (BULLET_PATHS
 
 SET (WANTED_MODULE_NAME     BulletMath)
 SET (WANTED_INCLUDES        "bullet/LinearMath/btVector3.h")
-SET (WANTED_LIBRARIES       bulletlinearmath)
+SET (WANTED_LIBRARIES       bulletmath)
 SET (WANTED_INCLUDES_PATH   ${BULLET_PATHS}) 
 SET (WANTED_LIBRARIES_PATH  ${BULLET_PATHS}) 
 INCLUDE (FindCommonModule)
