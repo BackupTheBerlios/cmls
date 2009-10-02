@@ -41,14 +41,14 @@ ENDIF ( BULLETMATH_FOUND AND BULLETCOLLISION_FOUND AND BULLETDYNAMICS_FOUND )
 SET (Bullet_INCLUDE_DIR ${BulletMath_INCLUDE_DIR}/${INCLUDE_PATH_PREFIX})
 
 SET (Bullet_LIBRARY
-    ${BulletMath_LIBRARY}
-    ${BulletCollision_LIBRARY}
     ${BulletDynamics_LIBRARY}
+    ${BulletCollision_LIBRARY}
+    ${BulletMath_LIBRARY}
 )
 
 SET (Bullet_LIBRARIES 
-    ${BulletMath_LIBRARIES}
-    ${BulletCollision_LIBRARIES}
     ${BulletDynamics_LIBRARIES}
+    ${BulletCollision_LIBRARIES}
+    ${BulletMath_LIBRARIES}
 )
 
