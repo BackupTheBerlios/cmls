@@ -1,4 +1,4 @@
 SET (WANTED_MODULE_NAME     IL)
 SET (WANTED_INCLUDES        IL/il.h)
-SET (WANTED_LIBRARIES       il ilu ilut)
+SET (WANTED_LIBRARIES       IL ILU ILUT)
 INCLUDE (FindCommonModule)
