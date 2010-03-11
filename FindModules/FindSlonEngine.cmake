@@ -7,7 +7,7 @@ FIND_PACKAGE ( Bullet )
 
 # Find SlonEngine
 SET (WANTED_MODULE_NAME     SlonEngine)
-SET (WANTED_INCLUDES        SlonEngine/Engine.h)
+SET (WANTED_INCLUDES        slon/Engine.h)
 SET (WANTED_LIBRARIES       SlonEngine)
 SET (WANTED_DEPENDENCIES    Boost XML++ SimpleGL SDL)
 
