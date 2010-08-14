@@ -2,3 +2,4 @@ SET (CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/CMakeModules/FindModules;${CMAKE_M
 
 INCLUDE (BuildFlags)
 INCLUDE (OutputPaths)
+INCLUDE (PrecompiledHeaders)
