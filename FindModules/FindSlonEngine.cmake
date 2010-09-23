@@ -1,5 +1,5 @@
 # Find dependencies
-FIND_PACKAGE ( Boost 1.36.0 	REQUIRED	COMPONENTS signals thread )
+FIND_PACKAGE ( Boost 1.36.0 	REQUIRED	COMPONENTS signals thread system filesystem)
 FIND_PACKAGE ( XML++            REQUIRED )
 FIND_PACKAGE ( SimpleGL         REQUIRED )
 FIND_PACKAGE ( SDL       		REQUIRED )
